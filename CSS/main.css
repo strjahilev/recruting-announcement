@@ -1,0 +1,67 @@
+
+.nav-link , .navbar-brand{ color: black; cursor: pointer;}
+.nav-link{font-size: 25px}
+.nav-link:hover{ background: black; color: #fcd204; }
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background: black !important; color: #fcd204;font-weight: bold}
+.navbar h1{
+    font-size: 25px;
+}
+
+.header .container-fluid{
+    height: 620px;
+}
+
+.header h1{
+    font-weight: bold;
+    font-size: 5.9vw;
+}
+.header .row{
+    padding-top: 5em;
+
+}
+
+.blog{
+    height: 750px;
+}
+.blog .row{
+    padding-top: 7em;
+    padding-bottom: 8em;
+
+
+}
+.blog .card{
+
+    color: #302f32;
+    font-size: 25px
+
+}
+.blog .w-100{
+    height: 3em;
+}
+
+.main{
+    height: 755px;
+}
+.main .row{
+    vertical-align: center;
+}
+.main .card{
+    margin-bottom: 7em;
+    margin-top: 7em;
+    padding: 1em;
+}
+.main ul{
+    font-size: 20px;
+
+}
+
+.contact .container{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.contact .btn{
+    background: black;
+    color: #fcd204;
+    font-weight: bold;
+}
