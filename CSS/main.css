@@ -8,25 +8,32 @@
     font-size: 25px;
 }
 
-.header .container-fluid{
-    height: 620px;
+.header h2{
+    font-weight: bold;
+    font-size: 4.2vw;
+    font-style: italic;
 }
-
 .header h1{
     font-weight: bold;
     font-size: 5.9vw;
 }
+.header h3{
+    font-weight: bold;
+    font-size: 4vw;
+
+}
+
 .header .row{
     padding-top: 5em;
 
 }
 
 .blog{
-    height: 750px;
+    height: 800px;
 }
 .blog .row{
-    padding-top: 7em;
-    padding-bottom: 8em;
+    padding-top: 11em;
+    padding-bottom: 10em;
 
 
 }
@@ -40,19 +47,15 @@
     height: 3em;
 }
 
-.main{
-    height: 755px;
-}
+
 .main .row{
     vertical-align: center;
+    padding-top: 11em;
+    padding-bottom: 11em;
 }
-.main .card{
-    margin-bottom: 7em;
-    margin-top: 7em;
-    padding: 1em;
-}
+
 .main ul{
-    font-size: 20px;
+    font-size: 25px;
 
 }
 
