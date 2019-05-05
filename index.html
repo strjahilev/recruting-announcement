@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 
@@ -18,7 +18,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-md bg-warning">
+<nav class="navbar navbar-expand-md ">
     <div class="container-fluid">
 
         <div class="col-sm-5 col-md-5">
@@ -46,7 +46,7 @@
     </div>
 </nav>
 <!--header-->
-<header class="header bg-warning">
+<header class="header ">
     <div class="container-fluid ">
         <div class="row justify-content-between ">
             <div class="col-12">
@@ -77,7 +77,8 @@
 
                 <div class=" col-xl-3 col-lg-3 col-md-6 col-sm-12 mb-3 d-flex align-items-stretch">
                     <div class="card text-center rounded-top rounded-bottom">
-                        <img class="card-img-top" src="img/team-work.jpg" alt="team-work">
+
+                        <i class="fa fa-comments" style="font-size:200px;color:#fcd204"></i>
                         <div class="card-body ">
                             <h2 class="card-title ">Командная работа</h2>
                         </div>
@@ -86,7 +87,7 @@
                 </div>
                 <div class=" col-xl-3 col-lg-3 col-md-6 col-sm-12 mb-3">
                     <div class="card text-center rounded-top rounded-bottom">
-                        <img class="card-img-top" src="img/STEK.jpg" alt="STEK">
+                        <i class="fa fa-bars" style="font-size:200px;color:#fcd204"></i>
                         <div class="card-body ">
                         <h2 class="card-title ">Современный СТЭК</h2>
                         </div>
@@ -94,7 +95,7 @@
                 </div>
                 <div class=" col-xl-3 col-lg-3 col-md-6 col-sm-12 mb-3 d-flex align-item-stretch">
                     <div class="card text-center rounded-top rounded-bottom">
-                        <img class="card-img-top" src="img/mentor.jpg" alt="mentor">
+                        <i class="fa fa-american-sign-language-interpreting " style="font-size:200px;color:#fcd204"></i>
                         <div class="card-body ">
                         <h2 class="card-title ">Личный МЕНТОР</h2>
                         </div>
@@ -102,7 +103,7 @@
                 </div>
                 <div class=" col-xl-3 col-lg-3 col-md-6 col-sm-12 mb-3 d-flex align-items-stretch">
                     <div class="card text-center rounded-top rounded-bottom">
-                        <img class="card-img-top" src="img/resume-4.jpg" alt="resume">
+                        <i class="fa fa-id-card" style="font-size:200px;color:#fcd204"></i>
                         <div class="card-body ">
                         <h2 class="card-title ">Запись в резюме</h2>
                     </div>
@@ -151,14 +152,36 @@
     </div>
 </div>
 
+<!--job-search-->
+    <div class="blog2">
+
+        <div style=" background: rgba(254, 254, 254, 0.7);">
+
+        <div class="container-fluid justify-content-center">
+            <div class="row justify-content-center  ">
+                <p class="job-search ">ТРУДОУСТРОЙСТВО</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
 <!--footer-->
-<footer class="contact bg-light" id="contact">
-    <div class="contact-form" id="contact">
-        <div class="container">
+<footer class="contact bg-light" id="">
+    <div class="contact-form">
+        <div class="container ">
+            <div class="row">
+                <h2>Заполните следующую форму, и мы обязательно свяжемся с Вами</h2>
+            </div>
             <form>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <h2>Заполните следующую форму, и мы обязательно свяжемся с Вами</h2>
+                <div class="form-row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                        <label>Фамилия*</label>
+                        <input type="text" class="form-control" placeholder="form-group">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                        <label>Имя*</label>
+                        <input type="text" class="form-control" placeholder="form-group">
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-12 right">
                         <div class="form">
@@ -173,8 +196,7 @@
     </div>
 
 
-
-
+<
 </footer>
 </body>
 </html>
