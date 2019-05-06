@@ -16,15 +16,17 @@
     font-weight: bold;
     font-size: 4.2vw;
     font-style: italic;
+    font-family: "Courier New";
 }
 .header h1{
     font-weight: bold;
     font-size: 5.9vw;
+    font-family: "Courier New";
 }
 .header h3{
     font-weight: bold;
     font-size: 4vw;
-
+    font-family: "Courier New";
 }
 
 .header .row{
@@ -32,14 +34,51 @@
 
 }
 
-@media screen and(min-width: 567px){
-    .header .row{
-        size: 5.9vw;
-    }
+
+.information {
+    font-size: 35px;
+   line-height: 1.5;
+    /*background: red;*/
+    background: rgba(254,253,255,0.15);
+    font-family: "Georgia";
+
+}
+.information .container-fluid{
+    height: 100%;
+}
+.information .t-1{
+    padding-top: 150px;
+}
+.information .t-2{
+    padding-bottom: 150px;
+}
+.information row{
+
+
+}
+/*.information .row{*/
+/*    padding-top: 75px;*/
+/*}*/
+.information .w-100{
+    height: 30px;
+}
+
+
+.main{
+    background-image: url("../img/1-1.jpg");
+    background-size: 100%;
+    height: 835px;
+}
+.main ul{
+    font-family: "Georgia";
 }
 
 .blog{
-    height: 800px;
+    /*height: 800px;*/
+   height: 835px;
+}
+.blog .container-fluid{
+    height: 100%;
 }
 .blog .row{
     padding-top: 11em;
@@ -57,16 +96,28 @@
     height: 3em;
 }
 
-.blog2 {
+.job {
     background-image: url("../img/job.jpg");
-
-
+height: 835px;
 }
-.job-search{
+
+.job .container-fluid{
+    height: 100%;
+}
+.job-cover{
+    height: 100%;
+}
+.job .job-search{
     color:black;
     font-weight: bold;
     font-size: 4em;
     background-color: #fcd204;
+    padding-top: 60px;
+}
+.computer{
+    background-image: url("../img/1.png");
+    background-size: 100%;
+    height: 835px;
 }
 .main .row{
     vertical-align: center;
@@ -77,6 +128,9 @@
 .main ul{
     font-size: 25px;
 
+}
+.contact{
+    height: 835px;
 }
 
 .contact .container{
