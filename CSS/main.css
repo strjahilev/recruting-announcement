@@ -1,19 +1,33 @@
-
-.nav-link , .navbar-brand{ color: black; cursor: pointer;}
-.nav-link{font-size: 25px}
-.nav-link:hover{ background: black; color: #fcd204; }
-.navbar-collapse{ justify-content: flex-end;}
+/*навигационная панель*/
+.nav-link , .navbar-brand{
+    color: black;
+    cursor: pointer;
+}
+.nav-link{
+    font-size: 25px
+}
+.nav-link:hover{
+    background: black;
+    color: #fcd204;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
 .navbar{
     background: #fcd204;
     font-family: "Courier New";
     font-weight: bold;
 }
-.navbar-toggler{  background: black !important; color: #fcd204;font-weight: bold}
+.navbar-toggler{
+    background: black !important;
+    color: #fcd204;
+    font-weight: bold}
 .navbar h1{
     font-size: 25px;
     font-weight: bold;
 }
 
+/*заголовок*/
 .header{
     background: #fcd204;
 }
@@ -36,18 +50,15 @@
 
 .header .row{
     padding-top: 5em;
-
 }
 
 
-
+/*информмационны блок*/
 .information {
     font-size: 35px;
-   line-height: 1.5;
-    /*background: red;*/
+    line-height: 1.5;
     background: rgba(254,253,255,0.15);
     font-family: "Georgia";
-
 }
 .information .container-fluid{
     height: 100%;
@@ -58,18 +69,14 @@
 .information .t-2{
     padding-bottom: 150px;
 }
-
-
 .information .w-100{
     height: 30px;
 }
 
-
+/*мотивационный блок*/
 .main{
     background: black;
-    /*background-image: url("../img/1-1.jpg");*/
     background-size: 100%;
-
 }
 .main .container-fluid{
     height: 100%;
@@ -78,46 +85,56 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.main .card-title{
+    font-family: "Courier New";
+    font-weight: bold;
+}
 .main ul{
     font-family: "Georgia";
 }
+.main .row{
+    vertical-align: center;
+    padding-top: 11em;
+    padding-bottom: 11em;
+}
+.main ul{
+    font-size: 25px;
+}
 
-
+/*блок-карточки*/
 .blog .container-fluid{
     height: 100%;
 }
 .blog .row{
     padding-top: 11em;
     padding-bottom: 10em;
-
-
 }
 .blog .card{
-
     color: #302f32;
     font-size: 25px;
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
-
+}
+.blog .card-title{
+    font-family: "Courier New";
+    font-weight: bold;
 }
 .blog .w-100{
     height: 3em;
 }
 
+/*трудоустройство!*/
 .job {
     background-image: url("../img/job.jpg");
 height: 835px;
 }
-
 .job .container-fluid{
     height: 100%;
-
 }
 .job-cover{
     height: 100%;
 }
-
 .job .job-search{
     color:black;
     font-weight: bold;
@@ -126,48 +143,38 @@ height: 835px;
     padding-top: 60px;
     padding-bottom: 60px;
     box-shadow: 5px 5px 5px 7px rgba(252, 210, 4, 0.5);
-
+    font-family: "Courier New";
+    font-weight: bold;
 }
 .job p{
     font-size: 5.9vw;
-
 }
 
+/*рисунок компьютера*/
 .computer{
     background: black;
-    /*background-image: url("../img/1.png");*/
     background-size: 100%;
     height: 835px;
 }
 .computer .container-fluid{
     height: 100%;
-
 }
 .computer img{
     box-shadow: 5px 5px 5px  rgba(122,122,122,0.5);
-
+    height: 80.0vw;
+    width: 80.0vw;
 }
 .computer p{
     font-size: 5.9vw;
 }
 
-.main .row{
-    vertical-align: center;
-    padding-top: 11em;
-    padding-bottom: 11em;
-}
-
-.main ul{
-    font-size: 25px;
-
-}
+/*контакт*/
 .contact{
     height: 835px;
 }
 
 .contact .container-fluid{
     height: 100%;
-
 }
 .contact .btn{
     background: black;
