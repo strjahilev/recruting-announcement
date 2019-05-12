@@ -16,6 +16,7 @@
 .navbar{
     background: #fcd204;
     font-family: "Courier New";
+    font-family: "Courier New";
     font-weight: bold;
 }
 .navbar-toggler{
@@ -215,8 +216,15 @@ height: 835px;
     font-family: "Courier New";
 
 }
+
 .job p{
-    font-size: 2vw;
+    font-size: 25px;
+    /*font-size: 2vw;*/
+}
+@media screen and (max-width: 768px){
+.job p{
+    font-size: 20px;
+}
 }
 
 /*рисунок компьютера*/
